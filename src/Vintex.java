@@ -1,8 +1,7 @@
 public class Vintex {
     public static void main(String[] args) {
-        double x = 8.0;
-        double yfa;
-        yfa = Math.sqrt(x);
-        System.out.print(yfa);
+        double x = 2;
+        double function = Math.pow(x, 3);
+        System.out.println(function);
     }
 }
