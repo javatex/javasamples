@@ -1,7 +1,9 @@
 public class Vintex {
     public static void main(String[] args) {
-        double x = 2;
-        double function = Math.pow(x, 3);
-        System.out.println(function);
+        // TODO testing Wolfram Alpha
+        for (int i = 0; i < 15; i++) {
+            System.out.print((i*i*i+2*i*i-i+1)+", ");
+        }
+        System.out.print("...");
     }
 }
