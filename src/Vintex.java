@@ -1,10 +1,7 @@
 public class Vintex {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-        }
-        for (int i = 0; i < 15; i++) {
-            System.out.print(i);
-        }
+        double x = 4.0;
+        double y = Math.sqrt(x);
+        System.out.println(y);
     }
 }
